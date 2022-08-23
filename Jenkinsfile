@@ -19,7 +19,7 @@ pipeline {
       }
       stage('Anchor-CLI Backend image scan'){
         steps{
-           sh "Secutiry scan of backend images"
+           sh "echo 'Secutiry scan of backend images'"
         }
       }
       stage('Build Frontend Image'){
@@ -35,7 +35,7 @@ pipeline {
       }
       stage('Anchor-CLI frontend image scan'){
         steps{
-           sh "Secutiry scan of frontend images"
+           sh "echo 'Secutiry scan of frontend images'"
         }       
       }
       stage('Push Image'){
