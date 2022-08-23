@@ -1,11 +1,11 @@
 pipeline {
     agent any
     stages {
-      stage('Checkout'){
-        steps{
-          git 'git@github.com:rakeshkorukonda2412/ultimate-list-image.git'
-        }
-      }
+//      stage('Checkout'){
+//        steps{
+//          git 'git@github.com:rakeshkorukonda2412/ultimate-list-image.git'
+//        }
+//      }
       stage('Build Backend Image'){
        steps{
         script{
